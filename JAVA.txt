@@ -1,0 +1,5 @@
+// Exemple simple : afficher une alerte lorsque le formulaire est soumis
+document.querySelector('form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Empêche le rechargement de la page
+    alert('Merci pour votre message !');
+});

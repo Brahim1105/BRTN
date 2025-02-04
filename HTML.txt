@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Site Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon site web</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Accueil</h2>
+        <p>Ceci est la page d'accueil de mon site web.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Apprenez-en plus sur moi et mes projets.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contactez-moi via ce formulaire :</p>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mon Premier Site Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
